@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.graphics.Color;
+import android.content.Intent;
 
 public class Login extends AppCompatActivity {
 
@@ -53,6 +54,8 @@ public class Login extends AppCompatActivity {
             //TODO - transition to the next screen
             username.setBackgroundColor(Color.WHITE);
             password.setBackgroundColor(Color.WHITE);
+            Intent intent = new Intent(this, DisplayMessageActivity.class);
+            startActivity(intent);
         }
         else{
             Toast.makeText(Login.this, "Wrong Credentials",
