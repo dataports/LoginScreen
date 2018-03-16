@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblPassword">Enter Your Password :</string>
+    <string name="lblUsername">Enter Your Username :</string>
+    <string name="lblWelcome">Welcome!</string>
+    <string name="btn_submit">Submit</string>
+</resources>
