@@ -39,11 +39,6 @@ public class Login extends AppCompatActivity {
 
 
                 CheckInput();
-//                Toast.makeText(Login.this, password.getText(),
-//                        Toast.LENGTH_SHORT).show();
-//                Toast.makeText(Login.this, username.getText(),
-//                        Toast.LENGTH_SHORT).show();
-
             }
 
         });
@@ -51,7 +46,7 @@ public class Login extends AppCompatActivity {
 
     public void CheckInput(){
         if(username.getText().toString().equals("person")&& password.getText().toString().equals("1234")){
-            //TODO - transition to the next screen
+
             username.setBackgroundColor(Color.WHITE);
             password.setBackgroundColor(Color.WHITE);
             Intent intent = new Intent(this, DisplayMessageActivity.class);
@@ -63,7 +58,6 @@ public class Login extends AppCompatActivity {
             username.setBackgroundColor(Color.RED);
             password.setBackgroundColor(Color.RED);
 
-            //TODO - highlight text boxes pink
         }
 
 
